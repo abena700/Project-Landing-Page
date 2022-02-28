@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:wght@400:7006display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    font-family: Roboto, sans-serif;
+}
+
+.header-hero-wrapper{
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.header-logo {
+    height: 50px;
+    width:auto;
+}
+
+.header-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+.header-links a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.hero {
+    display:flex;
+    justify-content: center;
+    margin: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.eh-tech-card {
+    align-self: center;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #E9EAF8;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-text {
+    color: #E5E7EB;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-weight: 900;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+}
